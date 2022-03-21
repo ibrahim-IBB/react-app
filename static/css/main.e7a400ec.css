@@ -8,17 +8,17 @@
     box-shadow: 0 4px 3px rgb(0 0 0 / 34%);
     box-shadow: 0 3px 50px hsl(0deg 0% 100% / 18%);
     color: #fff;
-    font-size: 18px;
+    font-size: 13px;
     font-weight: bolder;
     letter-spacing: 1px;
     margin-left: 4px;
     padding: 10px;
     text-shadow: 0 0 15px #fff;
     transition: .2s,padding .1s;
-    width: 72px;
+    width: 70px;
 }
   
-  .input-container input {
+.input-container input {
     -webkit-backdrop-filter: blur(3.5px);
     backdrop-filter: blur(3.5px);
     background: rgba(242,203,61,.18);
@@ -33,27 +33,27 @@
     padding: 17px 17px 17px 15px;
     text-shadow: 0 0 2px #fff;
     transition: .2s;
-    width: 297px;
+    width: 159PX;
 }
 
 .todo-cart {
-    display: flex;
-    width: 411px;
-    border: 1px solid #ffffff0a;
-    height: 50px;
-    border-radius: 6px;
-    background: rgba(157, 139, 255, 0.226);
-    box-shadow: 0 4px 15px rgb(0 0 0 / 34%);
+    -webkit-backdrop-filter: blur(1.5px);
     backdrop-filter: blur(1.5px);
-    border: 1px solid rgba(255, 255, 255, 0.6);
-    color: white;
-    justify-content: center;
-    align-items: center;
-    margin: 15px 0;
-    transition: 0.2s;
-    box-shadow: 0 3px 50px rgb(255 255 255 / 18%);
+    background: rgba(157,139,255,.226);
+    border: 1px solid #ffffff0a;
+    border: 1px solid hsla(0,0%,100%,.6);
+    border-radius: 6px;
+    box-shadow: 0 4px 15px rgb(0 0 0 / 34%);
+    box-shadow: 0 3px 50px hsl(0deg 0% 100% / 18%);
+    color: #fff;
+    cursor: pointer;
     font-size: 17px;
-    text-shadow: 0 0 5px white;
+    height: 50px;
+    justify-content: center;
+    margin: 15px 0;
+    text-shadow: 0 0 5px #fff;
+    transition: .2s;
+    width: 346px;
 }
 }
 /*# sourceMappingURL=main.e7a400ec.css.map*/
