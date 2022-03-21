@@ -35,4 +35,25 @@
     transition: .2s;
     width: 297px;
 }
+
+.todo-cart {
+    display: flex;
+    width: 411px;
+    border: 1px solid #ffffff0a;
+    height: 50px;
+    border-radius: 6px;
+    background: rgba(157, 139, 255, 0.226);
+    box-shadow: 0 4px 15px rgb(0 0 0 / 34%);
+    backdrop-filter: blur(1.5px);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+    transition: 0.2s;
+    box-shadow: 0 3px 50px rgb(255 255 255 / 18%);
+    font-size: 17px;
+    text-shadow: 0 0 5px white;
+}
+}
 /*# sourceMappingURL=main.e7a400ec.css.map*/
